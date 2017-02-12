@@ -12,6 +12,7 @@ namespace Conntest.Droid
 	[Activity (Label = "Conntest", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
 	{
+        //test
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
