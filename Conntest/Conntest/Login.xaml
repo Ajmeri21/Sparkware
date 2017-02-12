@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Conntest.Login">
+  <StackLayout>
+    <Entry Placeholder="Username" VerticalOptions="Center" HorizontalOptions="Center" x:Name="username" />
+    <Entry Placeholder="Password" VerticalOptions="Center" HorizontalOptions="Center" x:Name="password" />
+    <Button Text="LOGIN" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Login_Clicked" />
+    <Label Text="Output" x:Name="Output" VerticalOptions="Center" HorizontalOptions="Center" />
+  </StackLayout>
+</ContentPage>
