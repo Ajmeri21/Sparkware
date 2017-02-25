@@ -12,7 +12,7 @@ namespace SlidingTabLayoutTutorial
     public class MainActivity : Activity
     {
 
-        protected override void OnCreate(Bundle bundle)g
+        protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
